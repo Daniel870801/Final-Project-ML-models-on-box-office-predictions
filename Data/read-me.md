@@ -1,1 +1,1 @@
-french-box-office-23nov2020 : json data scrapped from jpboxoffice
+This folder contains the data we needed to conduct our analysis, which is entirely scraped from themoviedb and jpboxoffice.
