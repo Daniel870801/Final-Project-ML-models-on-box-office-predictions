@@ -1,1 +1,2 @@
-
+API%20box-office-france%20Artefact.ipynb: the main API, coded by Artefact and found on their github, to gather the majority of the data.
+Simple API is an easy to use API wrapper for themoviedb.com, which was used to gather some missing data based on film ID. Obviously, all could not be gathered due to the high number of missing film ID, but the main ones (top 200, i.e biggest hits) were looked up manually.
