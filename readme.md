@@ -49,9 +49,9 @@ The process of data cleaning and processing included:
   - column 'first_screening_sales' was deleted due to the high number of missing values
   - column 'cast' had values of a List type so we decided to split in 6 columns 'cast1','cast1_popularity', 'cast2', 'cast2_popularity', 'cast3', 'cast3_popularity'
 
-### Cleaning for Supervised ML and Time Series:
+### Cleaning for Supervised ML:
 
-The aim of second stage of cleaning was to prepare the data for Supervised Machine Learning and EDA. This process included:
+The aim of second stage of cleaning was to prepare the data for Supervised Machine Learning. This process included:
 
 -DANIEL-
 
@@ -59,7 +59,7 @@ The cleaned data ready for Time Series and ML was saved in the separate files.
 
 *Using : python, pandas, numpy, matplotlib, seaborn*
 
-## 05 - Time Series
+## 03- Time Series
 
 Time Series Analysis was performed separately for each pollutant (PM2.5, PM10, ozone and nitrogen dioxide) in each city.
 The analysis included:
@@ -73,7 +73,7 @@ The analysis included:
 
 *Using : python, pandas, numpy, matplotlib, seaborn, statmodels
 
-## 03 - Machine Learning
+## 04 - Machine Learning
 
 The purpose of this part of the project was to create a supervised machine learning model, which would correctly predict the succss of a movie.
 For the Supervised Machine Learning part 4 models were evaluated:
