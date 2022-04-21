@@ -1,31 +1,106 @@
+# French Box Office 
+IS THE SUCCESS OF A MOVIE PREDICTABLE ? 
+
+<img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 
-#### Final project
+## Content
+[table des matière]
 
-    1.1 define the subject 
+## Project Description
 
-    1.2 define business problem/ business case 
+xx
 
-    1.3 define a plan 
+## Workflow
 
-    1.4 add the plan to Jira/Trello/GitHub 
+1. Data Collection - Building a database with the historical data on french box office, movies genres and french box office features.
+   - French box office from 2010 to 2019 (--LINK--) DANIEL
+   - Movies genres from 2010 to 2019 (--LINK--) DANIEL
+   - French box office features (--LINK--) DANIEL
+2. Data Cleaning and Processing
+   - selection of specific data needed 
+   - cleaning and processing of each dataset
+   - cleaning and processing of data for Time Series Analysis and Machine Learning
+  
+5. Time Series Analysis
+6. Machine Learning
+7. Models testing.
+9. Creating Dashboards
+10. Preparing the Powerpoint presentation
+11. Preparing other deliverables (readme file, Git-Hub repository).
 
-    1.5 create GitHub repo structure 
+## 01 - Data Collection
 
-    1.6 data collection 
+The data was collected using APIs from ... .... DANIEL
 
-    1.7 data preparation 
-    
-    1.8 Finish data preparation
 
-    1.9 Create a data map ( variable and its description)
+## 02 - Data Cleaning
+_______________________________________________________________________________________________________________
+The selected data , where cleaned and processed before Time Series and Supervised Machine Learning Analysis. This process was divided into different parts, the files collected were in JSON format, we met a lot of difficulties to be able to use the data
 
-    1.10 Feature selection
+### Cleaning for Time Series Analysis and EDA
 
-    1.11 Hyperparameter tuning
+The columns which presented relevant information for Time Series analysis were the columns containing the air pollution and date information, i.e. : 'day', 'year', 'total_sales', 'max_theaters_used', 'viewers_by_theaters'.
 
-    1.12 First models
-    
-    1.13 Models evaluation
+The process of data cleaning and processing included:
 
-    1.14 Models improvement
+- converting datetime column into datetime type and split date on different columns day, month and year.
+- missing values processing:
+  - column 'first_screening_sales' was deleted due to the high number of missing values
+  - column 'cast' had values of a List type so we decided to split in 6 columns 'cast1','cast1_popularity', 'cast2', 'cast2_popularity', 'cast3', 'cast3_popularity'
+
+### Cleaning for Supervised ML and Time Series:
+
+The aim of second stage of cleaning was to prepare the data for Supervised Machine Learning and EDA. This process included:
+
+-DANIEL-
+
+The cleaned data ready for Time Series and ML was saved in the separate files.
+
+*Using : python, pandas, numpy, matplotlib, seaborn*
+
+## 05 - Time Series
+
+Time Series Analysis was performed separately for each pollutant (PM2.5, PM10, ozone and nitrogen dioxide) in each city.
+The analysis included:
+
+- Stationarity test - all analysed time series data was stationary.
+- Autocorrelation check 
+- Decomposition to see trend line.
+- Train/test split in proportion 80/20 to evaluate chosen model.
+- Fitting the model on the whole available data.
+- Plotting important figures.
+
+*Using : python, pandas, numpy, matplotlib, seaborn, statmodels
+
+## 03 - Machine Learning
+
+The purpose of this part of the project was to create a supervised machine learning model, which would correctly predict the succss of a movie.
+For the Supervised Machine Learning part 4 models were evaluated:
+
+- Random Forest Classifier,
+- Tree classifier,
+- KNeighbors classifier,
+- Nearest Neighbors classification
+
+The process of Machine Learning Analysis included:
+
+- random train/test split of data in proportion 80/20.
+- Features selection using Select From Model, Recursive Feature Elimination and Recursive Feature Elimination with Cross-Validation.
+- Hyperparameters Tunning using grid search and randomized search.
+- Evaluations of the different models used.
+- TOPT implementation:
+  - TPOT proposed Stacking Estimator using KNeighbors
+- Comparison of obtained results.
+
+
+## Conclusions
+
+- xx
+
+## Links
+
+[Repository](x)
+
+[Trello]()
+
