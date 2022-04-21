@@ -14,9 +14,9 @@ xx
 ## Workflow
 
 1. Data Collection - Building a database with the historical data on french box office, movies genres and french box office features.
-   - French box office from 2010 to 2019 (--LINK--) DANIEL
-   - Movies genres from 2010 to 2019 (--LINK--) DANIEL
-   - French box office features (--LINK--) DANIEL
+   - French box office from 2010 to 2019, in number of tickets sold, including the max number of theaters used (jpboxoffice.org)
+   - Corresponding movie features such as cast, budget, genre from 2010 to 2019 (themoviedb.com) 
+   - NB: the data gathers the total tickets sold from 2010 to 2019, but excludes 
 2. Data Cleaning and Processing
    - selection of specific data needed 
    - cleaning and processing of each dataset
@@ -31,8 +31,8 @@ xx
 
 ## 01 - Data Collection
 
-The data was collected using APIs from ... .... DANIEL
-
+The data was collected using API wrapper from themoviedb(https://developers.themoviedb.org/3/) and scraping from jpboxoffice.org with Scrapy. The app to scrap was designed by Artefactory (https://github.com/artefactory/french-box-office/tree/main/app), and we are deeply thankful for this.
+The challenge was to understand how to use it and configurate an appropriate virtual environment.
 
 ## 02 - Data Cleaning
 _______________________________________________________________________________________________________________
