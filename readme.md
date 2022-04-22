@@ -53,7 +53,10 @@ The process of data cleaning and processing included:
 
 The aim of second stage of cleaning was to prepare the data for Supervised Machine Learning. This process included:
 
--DANIEL-
+- Selection of seemingly relevant features
+- Encoding of categorical data, which included Quarter of Release, Genre, Original language. The last 2 had to be simplified: only the main genres and languages (English and French) have been kept. Other occurences have been labelled as others.
+- Labelling of pure box office data: total sales (tickets sold), viewers by theaters have been graded from 1 to 5 using the method pandas.qcut.
+- A total success rating, sum of the two previous scores, was then computed, and labelled from 1 to 4 in the 'hit_or_fail' column, which would be our y- variable in the machine learning models.
 
 The cleaned data ready for Time Series and ML was saved in the separate files.
 
