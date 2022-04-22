@@ -40,7 +40,7 @@ The selected data , where cleaned and processed before Time Series and Supervise
 
 ### Cleaning for Time Series Analysis and EDA
 
-The columns which presented relevant information for Time Series analysis were the columns containing the air pollution and date information, i.e. : 'day', 'year', 'total_sales', 'max_theaters_used', 'viewers_by_theaters'.
+The columns which presented relevant information for Time Series analysis were the columns containing the genre, total_sales and date information, i.e. : 'day', 'year', 'total_sales', 'max_theaters_used', 'viewers_by_theaters'.
 
 The process of data cleaning and processing included:
 
