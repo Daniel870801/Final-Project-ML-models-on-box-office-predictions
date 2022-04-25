@@ -4,12 +4,11 @@ IS THE SUCCESS OF A MOVIE PREDICTABLE ?
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 
-## Content
-[table des matière]
+
 
 ## Project Description
 
-xx
+We used the French box-office data (between 2010 and 2019) to determine whether the success or failure of a release can be predicted, using time-based prediction and machine learning models. To do so, we used numerical data (tickets sold, max theaters used...) as well as categorical data (genre, cast, original language...).
 
 ## Workflow
 
